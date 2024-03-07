@@ -7,7 +7,7 @@ try:
     Rpi.Open()
     print("Conectado")
 except:
- #   Rpi.close()
+    Rpi.close()
     if(Rpi.isOpen()):
         print("Conectado")
     else:
